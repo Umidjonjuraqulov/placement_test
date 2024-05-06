@@ -15,6 +15,24 @@ def main():
 
     selection = container.radio(f"***{question}***", options)
 
+    container = st.container(border=True)
+    question = "Which of the following is a correct example of the past perfect tense?"
+    options = ["A) She was cooking dinner when the phone rang.",
+               "B) They have already left for the airport.",
+               "C) He will finish the project by tomorrow.",
+               "D) I had never seen that movie before last night."]
+
+    selection = container.radio(f"***{question}***", options)
+
+    container = st.container(border=True)
+    question = "Which of the following is a correct example of the past perfect tense?"
+    options = ["A) She was cooking dinner when the phone rang.",
+               "B) They have already left for the airport.",
+               "C) He will finish the project by tomorrow.",
+               "D) I had never seen that movie before last night."]
+
+    selection = container.radio(f"***{question}***", options)
+
 
 if __name__ == '__main__':
     main()
