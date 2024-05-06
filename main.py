@@ -6,7 +6,7 @@ def main():
 
     st.header("English Placement Test")
 
-    container = st.container()
+    container = st.container(border=True)
     question = "Which of the following is a correct example of the past perfect tense?"
     options = ["A) She was cooking dinner when the phone rang.",
                "B) They have already left for the airport.",
